@@ -1,6 +1,6 @@
 Data from CFHT to validate the performance of the LSST DM stack.
 
-Data are used by `validate_drp_cfht`.
+Data are used by `validate_drp`.
 
 Credit to Dominique Boutigny for providing the data and starting tests.
 
