@@ -1,11 +1,16 @@
+validation_data_cfht
+====================
+
 Data from CFHT to validate the performance of the LSST DM stack.
 
 Data are used by `validate_drp`.
 
 Credit to Dominique Boutigny for providing the data and starting tests.
 
-This repository uses LFS to store the large files outside of GitHub.
 
-For more details see:
+Git LFS
+-------
 
-http://docs.lsst.codes/en/latest/development/git_lfs.html
+To clone and use this repository, you'll need Git Large File Storage (LFS).
+
+Our [Developer Guide](http://developer.lsst.io/en/latest/tools/git_lfs.html) explains how to setup Git LFS for LSST development.
