@@ -21,7 +21,6 @@ Example usage
 -------------
 
 ```
-setup obs_cfht
 setup validation_data_cfht
 
 NEW_OUTPUT_REPO=CFHT_data
@@ -58,7 +57,6 @@ This repository was created using `examples/runCfhtTest.sh` from the `validate_d
 To fully recreate this Butler `repo` from the `raw` data, set the `mapper` and add the `ingesetImages.py` step:
 
 ```
-setup obs_cfht
 setup validation_data_cfht
 
 mkdir data
