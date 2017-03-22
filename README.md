@@ -65,7 +65,7 @@ ingestImages.py data ${VALIDATION_DATA_CFHT_DIR}/raw/*.fz   --mode copy
 
 export ASTROMETRY_NET_DATA_DIR=${VALIDATION_DATA_CFHT_DIR}/astrometry_net_data
 processCcd.py data \
-    @${VALIDATION_DATA_DECAM_DIR}/Cfht.list \
+    @${VALIDATION_DATA_CFHT_DIR}/Cfht.list \
     -j 4 \
     --logdest processCcd.log
 ```
