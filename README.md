@@ -30,8 +30,7 @@ export ASTROMETRY_NET_DATA_DIR=${VALIDATION_DATA_CFHT_DIR}/astrometry_net_data
 processCcd.py ${VALIDATION_DATA_CFHT_DIR}/data \
     --output ${NEW_OUTPUT_REPO} \
     @${VALIDATION_DATA_CFHT_DIR}/Cfht.list \
-    -j 4 \
-    --clobber-config 
+    -j 4
 ```
 
 Notes:
@@ -57,7 +56,7 @@ This repository was created using `examples/runCfhtTest.sh` from the `validate_d
 To fully recreate this Butler `repo` from the `raw` data, set the `mapper` and add the `ingesetImages.py` step:
 
 ```
-setup validation_data_cfht
+setup validation_data_cfht -t 13.0
 
 mkdir data
 echo lsst.obs.cfht.MegacamMapper > data/_mapper
@@ -65,15 +64,13 @@ ingestImages.py data ${VALIDATION_DATA_CFHT_DIR}/raw/*.fz   --mode copy
 
 export ASTROMETRY_NET_DATA_DIR=${VALIDATION_DATA_CFHT_DIR}/astrometry_net_data
 processCcd.py data \
-    @${VALIDATION_DATA_CFHT_DIR}/Cfht.list \
-    -j 4 \
-    --logdest processCcd.log
+     --output data \
+     @${VALIDATION_DATA_CFHT_DIR}/Cfht.list \
+     -j 4
 ```
 
 Notes
  1. We use `--copy` to create a full copy of the raw images in the repo.
- 2. No separate `--output` repo was specified.  In this case we intentionally wish to create
-the output products in the same repo.
 
 The packages and versions used were recorded into `eups_setup_used.txt`:
 
