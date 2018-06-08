@@ -1,0 +1,718 @@
+root INFO: Loading config overrride file '/ssd/lsstsw/stack3_20171021/stack/miniconda3-4.3.21-10a4fa6/Linux64/obs_cfht/15.0-4-gcf4074d+8/config/processCcd.py'
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+root INFO: Running: /ssd/lsstsw/stack3_20171021/stack/miniconda3-4.3.21-10a4fa6/Linux64/pipe_tasks/15.0-16-g6f0eb036/bin/processCcd.py data --output data @/project/wmwv/validation_data_cfht/Cfht.list -j 4
+WARNING: You are using OpenBLAS with multiple threads (48), but have not
+specified the number of threads using one of the OpenBLAS environment variables:
+OPENBLAS_NUM_THREADS, GOTO_NUM_THREADS, OMP_NUM_THREADS.
+This may indicate that you are unintentionally using multiple threads, which may
+cause problems. WE HAVE THEREFORE DISABLED OpenBLAS THREADING. If you know
+what you are doing and want threads enabled implicitly, set the environment
+variable LSST_ALLOW_IMPLICIT_THREADS.
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+processCcd INFO: Processing {'visit': 849375, 'ccd': 12, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 13, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 849375, 'ccd': 12, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 13, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd INFO: Processing {'visit': 849375, 'ccd': 14, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 15, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 849375, 'ccd': 14, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 15, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd INFO: Processing {'visit': 849375, 'ccd': 13, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 14, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 849375, 'ccd': 13, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 14, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd INFO: Processing {'visit': 849375, 'ccd': 21, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 22, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 849375, 'ccd': 21, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 22, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Saturation set to 68892
+processCcd.isr INFO: Saturation set to 63961
+processCcd.isr INFO: Saturation set to 65194
+processCcd.isr INFO: Saturation set to 61301
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 849375, 'ccd': 12, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 13, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 849375, 'ccd': 13, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 14, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 849375, 'ccd': 21, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 22, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 849375, 'ccd': 14, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 15, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.repair INFO: Identified 939 cosmic rays.
+processCcd.charImage.repair INFO: Identified 1007 cosmic rays.
+processCcd.charImage.repair INFO: Identified 973 cosmic rays.
+processCcd.charImage.repair INFO: Identified 969 cosmic rays.
+processCcd.charImage.detection INFO: Detected 446 positive peaks in 186 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Detected 411 positive peaks in 190 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Detected 450 positive peaks in 197 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Detected 436 positive peaks in 221 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.measurement INFO: Measuring 186 sources (186 parents, 0 children) 
+processCcd.charImage.measurement INFO: Measuring 190 sources (190 parents, 0 children) 
+processCcd.charImage.measurement INFO: Measuring 197 sources (197 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurement INFO: Measuring 221 sources (221 parents, 0 children) 
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/53 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 53 candidates
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/62 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 62 candidates
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/62 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 62 candidates
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/68 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 68 candidates
+processCcd.charImage.measurePsf INFO: PSF determination using 25/53 stars.
+processCcd.charImage.measurePsf INFO: PSF determination using 34/62 stars.
+processCcd.charImage INFO: iter 1; PSF sigma=2.45, dimensions=(33, 33); median background=1219.99
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.measurePsf INFO: PSF determination using 36/62 stars.
+processCcd.charImage INFO: iter 1; PSF sigma=2.43, dimensions=(33, 33); median background=1229.27
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage INFO: iter 1; PSF sigma=2.48, dimensions=(33, 33); median background=1230.08
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.measurePsf INFO: PSF determination using 34/68 stars.
+processCcd.charImage.repair INFO: Identified 951 cosmic rays.
+processCcd.charImage.repair INFO: Identified 1011 cosmic rays.
+processCcd.charImage INFO: iter 1; PSF sigma=2.47, dimensions=(33, 33); median background=1234.15
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.repair INFO: Identified 980 cosmic rays.
+processCcd.charImage.repair INFO: Identified 985 cosmic rays.
+processCcd.charImage.detection INFO: Detected 284 positive peaks in 160 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Detected 245 positive peaks in 157 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Detected 288 positive peaks in 157 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Detected 296 positive peaks in 183 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.measurement INFO: Measuring 160 sources (160 parents, 0 children) 
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.measurement INFO: Measuring 157 sources (157 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurement INFO: Measuring 157 sources (157 parents, 0 children) 
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/53 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 53 candidates
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/62 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 62 candidates
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/62 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 62 candidates
+processCcd.charImage.measurement INFO: Measuring 183 sources (183 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf INFO: PSF determination using 25/53 stars.
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/66 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 66 candidates
+processCcd.charImage.measurePsf INFO: PSF determination using 31/62 stars.
+processCcd.charImage.measurePsf INFO: PSF determination using 35/62 stars.
+processCcd.charImage INFO: iter 2; PSF sigma=2.44, dimensions=(33, 33); median background=1219.94
+processCcd.charImage INFO: iter 2; PSF sigma=2.43, dimensions=(33, 33); median background=1229.21
+processCcd.charImage INFO: iter 2; PSF sigma=2.48, dimensions=(33, 33); median background=1229.96
+processCcd.charImage.repair INFO: Identified 951 cosmic rays.
+processCcd.charImage.repair INFO: Identified 1011 cosmic rays.
+processCcd.charImage.repair INFO: Identified 980 cosmic rays.
+processCcd.charImage.measurement INFO: Measuring 160 sources (160 parents, 0 children) 
+processCcd.charImage.measurement INFO: Measuring 157 sources (157 parents, 0 children) 
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.016599 from 25
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.015424 from 24
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.charImage.measurement INFO: Measuring 157 sources (157 parents, 0 children) 
+processCcd.calibrate INFO: Processing {'visit': 849375, 'ccd': 12, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 13, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.008535 from 30
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.014510 from 31
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.charImage.measurePsf INFO: PSF determination using 35/66 stars.
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.014792 from 35
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.015709 from 35
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Processing {'visit': 849375, 'ccd': 21, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 22, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.calibrate INFO: Processing {'visit': 849375, 'ccd': 14, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 15, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.charImage INFO: iter 2; PSF sigma=2.47, dimensions=(33, 33); median background=1234.08
+processCcd.charImage.repair INFO: Identified 984 cosmic rays.
+processCcd.calibrate.detection INFO: Detected 1142 positive peaks in 922 footprints and 23 negative peaks in 22 footprints to 5 sigma
+processCcd.charImage.measurement INFO: Measuring 183 sources (183 parents, 0 children) 
+processCcd.calibrate.detection INFO: Detected 1163 positive peaks in 987 footprints and 2 negative peaks in 1 footprints to 5 sigma
+processCcd.calibrate.detection INFO: Detected 1150 positive peaks in 912 footprints and 4 negative peaks in 3 footprints to 5 sigma
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.014009 from 35
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.020336 from 35
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate.deblend INFO: Deblending 922 sources
+processCcd.calibrate INFO: Processing {'visit': 849375, 'ccd': 13, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 14, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.calibrate.deblend INFO: Deblending 987 sources
+processCcd.calibrate.deblend INFO: Deblending 912 sources
+processCcd.calibrate.deblend INFO: Deblended: of 922 sources, 92 were deblended, creating 312 children, total 1234 sources
+processCcd.calibrate.deblend INFO: Deblended: of 987 sources, 87 were deblended, creating 263 children, total 1250 sources
+processCcd.calibrate.deblend INFO: Deblended: of 912 sources, 95 were deblended, creating 333 children, total 1245 sources
+processCcd.calibrate.measurement INFO: Measuring 1234 sources (922 parents, 312 children) 
+processCcd.calibrate.measurement INFO: Measuring 1250 sources (987 parents, 263 children) 
+processCcd.calibrate.detection INFO: Detected 1157 positive peaks in 955 footprints and 0 negative peaks in 0 footprints to 5 sigma
+processCcd.calibrate.measurement INFO: Measuring 1245 sources (912 parents, 333 children) 
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.calibrate.deblend INFO: Deblending 955 sources
+processCcd.calibrate.deblend INFO: Deblended: of 955 sources, 91 were deblended, creating 293 children, total 1248 sources
+processCcd.calibrate.measurement INFO: Measuring 1248 sources (955 parents, 293 children) 
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 122 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (215.044173, +52.534334) and radius 0.15144401540899402 deg
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 124 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (215.046719, +52.775734) and radius 0.15138768617579051 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 99 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 99 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1114 unusable sources, leaving 120 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 35 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 113 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 113 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1130 unusable sources, leaving 120 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 50 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 99 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1114 unusable sources, leaving 120 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 33 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 99 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1114 unusable sources, leaving 120 usable sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 113 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1130 unusable sources, leaving 120 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 44 sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 31 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 113 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1130 unusable sources, leaving 120 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 42 sources
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 31 matches with scatter = 0.025 +- 0.009 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 1082/1234 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 151/151 references
+processCcd.calibrate.photoCal.match INFO: Matched 49 from 1082/1234 input and 151/151 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/49 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.048880 +/- 0.000275 from 30 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.048880
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 42 matches with scatter = 0.024 +- 0.012 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 1150/1250 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 163/163 references
+processCcd.calibrate.photoCal.match INFO: Matched 62 from 1150/1250 input and 163/163 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/62 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.037229 +/- 0.000430 from 44 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.037229
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 121 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (214.684360, +52.776436) and radius 0.1512283832623754 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 109 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 109 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1137 unusable sources, leaving 108 usable sources
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate.astrometry.matcher INFO: Matched 51 sources
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 109 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1137 unusable sources, leaving 108 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 48 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 109 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1137 unusable sources, leaving 108 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 47 sources
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 131 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (214.865447, +52.776374) and radius 0.15158006236764493 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 116 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 116 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1127 unusable sources, leaving 121 usable sources
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 47 matches with scatter = 0.033 +- 0.021 arcsec
+processCcd.calibrate.astrometry.matcher INFO: Matched 48 sources
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 1112/1245 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 156/156 references
+processCcd.calibrate.photoCal.match INFO: Matched 55 from 1112/1245 input and 156/156 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/55 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.035908 +/- 0.000427 from 35 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.035908
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 116 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1127 unusable sources, leaving 121 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 41 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 116 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1127 unusable sources, leaving 121 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 41 sources
+processCcd INFO: Processing {'visit': 849375, 'ccd': 22, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 23, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 849375, 'ccd': 22, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 23, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 41 matches with scatter = 0.025 +- 0.012 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 1129/1248 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 156/156 references
+processCcd.calibrate.photoCal.match INFO: Matched 69 from 1129/1248 input and 156/156 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/69 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.037190 +/- 0.000317 from 51 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.037190
+processCcd INFO: Processing {'visit': 849375, 'ccd': 23, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 24, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 849375, 'ccd': 23, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 24, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Saturation set to 62112
+processCcd.isr INFO: Saturation set to 58414
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 849375, 'ccd': 22, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 23, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 849375, 'ccd': 23, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 24, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.repair INFO: Identified 949 cosmic rays.
+processCcd.charImage.repair INFO: Identified 960 cosmic rays.
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+processCcd INFO: Processing {'visit': 850587, 'ccd': 12, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 13, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 850587, 'ccd': 12, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 13, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd INFO: Processing {'visit': 850587, 'ccd': 13, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 14, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 850587, 'ccd': 13, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 14, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.isr INFO: Saturation set to 68892
+processCcd.charImage.detection INFO: Detected 643 positive peaks in 197 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Detected 517 positive peaks in 200 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.isr INFO: Saturation set to 63961
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 850587, 'ccd': 12, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 13, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.charImage.measurement INFO: Measuring 197 sources (197 parents, 0 children) 
+processCcd.charImage.measurement INFO: Measuring 200 sources (200 parents, 0 children) 
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 850587, 'ccd': 13, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 14, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/53 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 53 candidates
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/51 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 51 candidates
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.repair INFO: Identified 1025 cosmic rays.
+processCcd.charImage.measurePsf INFO: PSF determination using 27/53 stars.
+processCcd.charImage.measurePsf INFO: PSF determination using 28/51 stars.
+processCcd.charImage.repair INFO: Identified 1012 cosmic rays.
+processCcd.charImage INFO: iter 1; PSF sigma=2.55, dimensions=(33, 33); median background=1230.11
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage INFO: iter 1; PSF sigma=2.46, dimensions=(33, 33); median background=1244.47
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.repair INFO: Identified 947 cosmic rays.
+processCcd.charImage.repair INFO: Identified 975 cosmic rays.
+processCcd.charImage.detection INFO: Detected 575 positive peaks in 253 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Detected 645 positive peaks in 257 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Detected 307 positive peaks in 172 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Detected 394 positive peaks in 159 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.measurement INFO: Measuring 257 sources (257 parents, 0 children) 
+processCcd.charImage.measurement INFO: Measuring 253 sources (253 parents, 0 children) 
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/73 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 73 candidates
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/58 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 58 candidates
+processCcd.charImage.measurement INFO: Measuring 159 sources (159 parents, 0 children) 
+processCcd.charImage.measurement INFO: Measuring 172 sources (172 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/50 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 50 candidates
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/50 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 50 candidates
+processCcd.charImage.measurePsf INFO: PSF determination using 35/58 stars.
+processCcd.charImage.measurePsf INFO: PSF determination using 46/73 stars.
+processCcd.charImage INFO: iter 1; PSF sigma=1.68, dimensions=(27, 27); median background=993.77
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage INFO: iter 1; PSF sigma=1.68, dimensions=(27, 27); median background=1004.03
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.measurePsf INFO: PSF determination using 22/50 stars.
+processCcd.charImage.measurePsf INFO: PSF determination using 25/50 stars.
+processCcd.charImage.repair INFO: Identified 1023 cosmic rays.
+processCcd.charImage.repair INFO: Identified 1016 cosmic rays.
+processCcd.charImage INFO: iter 2; PSF sigma=2.57, dimensions=(33, 33); median background=1229.86
+processCcd.charImage INFO: iter 2; PSF sigma=2.44, dimensions=(33, 33); median background=1244.35
+processCcd.charImage.repair INFO: Identified 948 cosmic rays.
+processCcd.charImage.repair INFO: Identified 973 cosmic rays.
+processCcd.charImage.measurement INFO: Measuring 159 sources (159 parents, 0 children) 
+processCcd.charImage.measurement INFO: Measuring 172 sources (172 parents, 0 children) 
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.014671 from 22
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.019001 from 22
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Processing {'visit': 849375, 'ccd': 23, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 24, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.010558 from 25
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.017843 from 25
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.charImage.detection INFO: Detected 549 positive peaks in 250 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.calibrate INFO: Processing {'visit': 849375, 'ccd': 22, 'runId': '06AL01', 'object': 'D3', 'date': '2006-05-20', 'filter': 'r', 'state': 'p', 'extension': 23, 'taiObs': '2006-05-20T12:04:45.73', 'expTime': 300.202}
+processCcd.charImage.detection INFO: Detected 606 positive peaks in 242 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.measurement INFO: Measuring 250 sources (250 parents, 0 children) 
+processCcd.charImage.measurement INFO: Measuring 242 sources (242 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/71 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 71 candidates
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/58 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 58 candidates
+processCcd.calibrate.detection INFO: Detected 1203 positive peaks in 961 footprints and 4 negative peaks in 4 footprints to 5 sigma
+processCcd.calibrate.detection INFO: Detected 1292 positive peaks in 953 footprints and 8 negative peaks in 7 footprints to 5 sigma
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.measurePsf INFO: PSF determination using 44/71 stars.
+processCcd.charImage.measurePsf INFO: PSF determination using 32/58 stars.
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.calibrate.deblend INFO: Deblending 961 sources
+processCcd.calibrate.deblend INFO: Deblending 953 sources
+processCcd.charImage INFO: iter 2; PSF sigma=1.68, dimensions=(27, 27); median background=1004.01
+processCcd.charImage INFO: iter 2; PSF sigma=1.68, dimensions=(27, 27); median background=993.77
+processCcd.charImage.repair INFO: Identified 1015 cosmic rays.
+processCcd.charImage.repair INFO: Identified 1025 cosmic rays.
+processCcd.charImage.measurement INFO: Measuring 242 sources (242 parents, 0 children) 
+processCcd.charImage.measurement INFO: Measuring 250 sources (250 parents, 0 children) 
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.029570 from 43
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.015005 from 40
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate.deblend INFO: Deblended: of 961 sources, 110 were deblended, creating 352 children, total 1313 sources
+processCcd.calibrate INFO: Processing {'visit': 850587, 'ccd': 13, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 14, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.027990 from 32
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.024219 from 32
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Processing {'visit': 850587, 'ccd': 12, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 13, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.calibrate.measurement INFO: Measuring 1313 sources (961 parents, 352 children) 
+processCcd.calibrate.deblend INFO: Deblended: of 953 sources, 96 were deblended, creating 435 children, total 1388 sources
+processCcd.calibrate.measurement INFO: Measuring 1388 sources (953 parents, 435 children) 
+processCcd.calibrate.detection INFO: Detected 2041 positive peaks in 1479 footprints and 1 negative peaks in 1 footprints to 5 sigma
+processCcd.calibrate.detection INFO: Detected 1897 positive peaks in 1436 footprints and 18 negative peaks in 17 footprints to 5 sigma
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.calibrate.deblend INFO: Deblending 1479 sources
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.calibrate.deblend INFO: Deblending 1436 sources
+processCcd.calibrate.deblend INFO: Deblended: of 1479 sources, 129 were deblended, creating 691 children, total 2170 sources
+processCcd.calibrate.deblend INFO: Deblended: of 1436 sources, 136 were deblended, creating 597 children, total 2033 sources
+processCcd.calibrate.measurement INFO: Measuring 2170 sources (1479 parents, 691 children) 
+processCcd.calibrate.measurement INFO: Measuring 2033 sources (1436 parents, 597 children) 
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 139 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (214.864170, +52.534741) and radius 0.1515769720911674 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 106 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 106 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1158 unusable sources, leaving 155 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 41 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 106 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1158 unusable sources, leaving 155 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 36 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 106 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1158 unusable sources, leaving 155 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 32 sources
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 32 matches with scatter = 0.019 +- 0.011 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 1162/1313 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 144/144 references
+processCcd.calibrate.photoCal.match INFO: Matched 59 from 1162/1313 input and 144/144 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/59 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.030082 +/- 0.000469 from 49 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.030082
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 123 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (214.683613, +52.535186) and radius 0.15117567115711342 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 112 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 112 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1265 unusable sources, leaving 123 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 38 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 112 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1265 unusable sources, leaving 123 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 34 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 112 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1265 unusable sources, leaving 123 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 33 sources
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 33 matches with scatter = 0.029 +- 0.013 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 1248/1388 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 155/155 references
+processCcd.calibrate.photoCal.match INFO: Matched 57 from 1248/1388 input and 155/155 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/57 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.029589 +/- 0.000283 from 44 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.029589
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+processCcd INFO: Processing {'visit': 850587, 'ccd': 14, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 15, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 850587, 'ccd': 14, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 15, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.isr INFO: Saturation set to 65194
+processCcd.isr INFO: Adding a distortion model to the WCS
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+processCcd.charImage INFO: Processing {'visit': 850587, 'ccd': 14, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 15, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd INFO: Processing {'visit': 850587, 'ccd': 21, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 22, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 850587, 'ccd': 21, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 22, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.isr INFO: Saturation set to 61301
+processCcd.charImage.repair INFO: Identified 976 cosmic rays.
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 850587, 'ccd': 21, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 22, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 173 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (215.030263, +52.790670) and radius 0.1513033482074993 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 98 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 98 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1892 unusable sources, leaving 141 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 36 sources
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 98 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1892 unusable sources, leaving 141 usable sources
+processCcd.charImage.detection INFO: Detected 810 positive peaks in 254 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.calibrate.astrometry.matcher INFO: Matched 34 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 98 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 1892 unusable sources, leaving 141 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 31 sources
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 31 matches with scatter = 0.029 +- 0.016 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 1833/2033 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 158/158 references
+processCcd.calibrate.photoCal.match INFO: Matched 52 from 1833/2033 input and 158/158 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/52 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.093000 +/- 0.000402 from 47 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.093000
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.repair INFO: Identified 963 cosmic rays.
+processCcd.charImage.measurement INFO: Measuring 254 sources (254 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/65 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 65 candidates
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.charImage.detection INFO: Detected 569 positive peaks in 227 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 170 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (214.849019, +52.791375) and radius 0.15155591211679031 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 113 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 113 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2033 unusable sources, leaving 137 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 47 sources
+processCcd.charImage.measurePsf INFO: PSF determination using 34/65 stars.
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 113 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2033 unusable sources, leaving 137 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 43 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 113 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2033 unusable sources, leaving 137 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 43 sources
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 43 matches with scatter = 0.027 +- 0.010 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 1995/2170 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 177/177 references
+processCcd.calibrate.photoCal.match INFO: Matched 67 from 1995/2170 input and 177/177 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/67 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.077745 +/- 0.000421 from 55 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.077745
+processCcd.charImage INFO: iter 1; PSF sigma=1.67, dimensions=(27, 27); median background=993.54
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.measurement INFO: Measuring 227 sources (227 parents, 0 children) 
+processCcd.charImage.repair INFO: Identified 983 cosmic rays.
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/65 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 65 candidates
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+processCcd INFO: Processing {'visit': 850587, 'ccd': 22, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 23, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 850587, 'ccd': 22, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 23, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.charImage.measurePsf INFO: PSF determination using 42/65 stars.
+processCcd.isr INFO: Saturation set to 62112
+processCcd.charImage INFO: iter 1; PSF sigma=1.67, dimensions=(27, 27); median background=998.96
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.detection INFO: Detected 790 positive peaks in 248 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.repair INFO: Identified 965 cosmic rays.
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 850587, 'ccd': 22, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 23, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.charImage.measurement INFO: Measuring 248 sources (248 parents, 0 children) 
+CameraMapper INFO: Loading exposure registry from /project/wmwv/validation_data_cfht/data/registry.sqlite3
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/65 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 65 candidates
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd INFO: Processing {'visit': 850587, 'ccd': 23, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 24, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.isr INFO: Performing ISR on sensor {'visit': 850587, 'ccd': 23, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 24, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.isr INFO: Saturation set to 58414
+processCcd.charImage.repair INFO: Identified 993 cosmic rays.
+processCcd.charImage.detection INFO: Detected 513 positive peaks in 218 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.measurePsf INFO: PSF determination using 30/65 stars.
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage INFO: iter 2; PSF sigma=1.67, dimensions=(27, 27); median background=993.50
+processCcd.charImage.measurement INFO: Measuring 218 sources (218 parents, 0 children) 
+processCcd.isr INFO: Adding a distortion model to the WCS
+processCcd.charImage INFO: Processing {'visit': 850587, 'ccd': 23, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 24, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.charImage.repair INFO: Identified 976 cosmic rays.
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/65 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 65 candidates
+processCcd.charImage.measurement INFO: Measuring 248 sources (248 parents, 0 children) 
+processCcd.charImage.detection INFO: Detected 699 positive peaks in 298 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.016333 from 30
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.015992 from 30
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Processing {'visit': 850587, 'ccd': 14, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 15, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.repair INFO: Identified 1009 cosmic rays.
+processCcd.charImage.measurePsf INFO: PSF determination using 43/65 stars.
+processCcd.charImage.measurement INFO: Measuring 298 sources (298 parents, 0 children) 
+processCcd.charImage INFO: iter 2; PSF sigma=1.67, dimensions=(27, 27); median background=998.94
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/60 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 60 candidates
+processCcd.charImage.repair INFO: Identified 963 cosmic rays.
+processCcd.charImage.measurement INFO: Measuring 218 sources (218 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: PSF determination using 39/60 stars.
+processCcd.charImage.detection INFO: Detected 856 positive peaks in 270 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.calibrate.detection INFO: Detected 2300 positive peaks in 1507 footprints and 13 negative peaks in 11 footprints to 5 sigma
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.019317 from 40
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.014357 from 39
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.charImage INFO: iter 1; PSF sigma=1.68, dimensions=(27, 27); median background=1010.36
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.calibrate INFO: Processing {'visit': 850587, 'ccd': 21, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 22, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.calibrate.deblend INFO: Deblending 1507 sources
+processCcd.charImage.repair INFO: Identified 998 cosmic rays.
+processCcd.charImage.measurement INFO: Measuring 270 sources (270 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/59 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 59 candidates
+processCcd.calibrate.detection INFO: Detected 2029 positive peaks in 1574 footprints and 0 negative peaks in 0 footprints to 5 sigma
+processCcd.charImage.measurePsf INFO: PSF determination using 34/59 stars.
+processCcd.charImage.detection INFO: Detected 626 positive peaks in 290 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.charImage INFO: iter 1; PSF sigma=1.69, dimensions=(27, 27); median background=994.80
+processCcd.charImage WARN: Source catalog detected and measured with placeholder or default PSF
+processCcd.calibrate.deblend INFO: Deblending 1574 sources
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.repair INFO: Identified 1012 cosmic rays.
+processCcd.charImage.measurement INFO: Measuring 290 sources (290 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/59 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 59 candidates
+processCcd.charImage.measurePsf INFO: PSF determination using 39/59 stars.
+processCcd.charImage.detection INFO: Detected 794 positive peaks in 260 footprints and 0 negative peaks in 0 footprints to 50 sigma
+processCcd.charImage.detection INFO: Resubtracting the background after object detection
+processCcd.charImage INFO: iter 2; PSF sigma=1.68, dimensions=(27, 27); median background=1010.33
+processCcd.calibrate.deblend INFO: Deblended: of 1574 sources, 135 were deblended, creating 590 children, total 2164 sources
+processCcd.charImage.repair INFO: Identified 993 cosmic rays.
+processCcd.charImage.measurement INFO: Measuring 260 sources (260 parents, 0 children) 
+processCcd.calibrate.measurement INFO: Measuring 2164 sources (1574 parents, 590 children) 
+processCcd.charImage.measurement INFO: Measuring 290 sources (290 parents, 0 children) 
+processCcd.charImage.measurePsf INFO: Measuring PSF
+processCcd.charImage.measurePsf.reserve INFO: Reserved 0/57 sources
+processCcd.charImage.measurePsf INFO: PSF star selector found 57 candidates
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.024307 from 37
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.022730 from 37
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Processing {'visit': 850587, 'ccd': 22, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 23, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.calibrate.deblend INFO: Deblended: of 1507 sources, 135 were deblended, creating 928 children, total 2435 sources
+processCcd.charImage.measurePsf INFO: PSF determination using 32/57 stars.
+processCcd.charImage INFO: iter 2; PSF sigma=1.69, dimensions=(27, 27); median background=994.74
+processCcd.calibrate.measurement INFO: Measuring 2435 sources (1507 parents, 928 children) 
+processCcd.charImage.repair INFO: Identified 1010 cosmic rays.
+processCcd.calibrate.detection INFO: Detected 2112 positive peaks in 1504 footprints and 161 negative peaks in 22 footprints to 5 sigma
+processCcd.charImage.measurement INFO: Measuring 260 sources (260 parents, 0 children) 
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.charImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.019371 from 31
+processCcd.charImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.022824 from 32
+processCcd.charImage.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Processing {'visit': 850587, 'ccd': 23, 'runId': '06AL01', 'object': 'D3', 'date': '2006-06-02', 'filter': 'r', 'state': 'p', 'extension': 24, 'taiObs': '2006-06-02T09:07:28.22', 'expTime': 300.181}
+processCcd.calibrate.deblend INFO: Deblending 1504 sources
+processCcd.calibrate.detection INFO: Detected 2362 positive peaks in 1599 footprints and 4 negative peaks in 4 footprints to 5 sigma
+processCcd.calibrate.detection INFO: Resubtracting the background after object detection
+processCcd.calibrate.deblend INFO: Deblending 1599 sources
+processCcd.calibrate.deblend INFO: Deblended: of 1504 sources, 150 were deblended, creating 758 children, total 2262 sources
+processCcd.calibrate.measurement INFO: Measuring 2262 sources (1504 parents, 758 children) 
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 143 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (215.027722, +52.549353) and radius 0.1512979340110543 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 108 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 108 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2028 unusable sources, leaving 136 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 48 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 108 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2028 unusable sources, leaving 136 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 46 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 108 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2028 unusable sources, leaving 136 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 42 sources
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 42 matches with scatter = 0.024 +- 0.011 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 2025/2164 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 166/166 references
+processCcd.calibrate.photoCal.match INFO: Matched 56 from 2025/2164 input and 166/166 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/56 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.076483 +/- 0.000467 from 29 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.076483
+processCcd.calibrate.deblend INFO: Deblended: of 1599 sources, 150 were deblended, creating 913 children, total 2512 sources
+processCcd.calibrate.measurement INFO: Measuring 2512 sources (1599 parents, 913 children) 
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 159 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (214.667772, +52.791414) and radius 0.15126859983315888 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 107 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 107 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2299 unusable sources, leaving 136 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 47 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 107 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2299 unusable sources, leaving 136 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 40 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 107 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2299 unusable sources, leaving 136 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 41 sources
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 41 matches with scatter = 0.038 +- 0.024 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 2175/2435 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 186/186 references
+processCcd.calibrate.photoCal.match INFO: Matched 55 from 2175/2435 input and 186/186 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/55 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.075837 +/- 0.000523 from 46 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.075837
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 204 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (214.847760, +52.549738) and radius 0.15151569410093474 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 100 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 100 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2081 unusable sources, leaving 181 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 42 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 100 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2081 unusable sources, leaving 181 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 39 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 100 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2081 unusable sources, leaving 181 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 38 sources
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 38 matches with scatter = 0.033 +- 0.014 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 2098/2262 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 173/173 references
+processCcd.calibrate.photoCal.match INFO: Matched 59 from 2098/2262 input and 173/173 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/59 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.061294 +/- 0.000635 from 45 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.061294
+processCcd.calibrate.applyApCorr INFO: Applying aperture corrections to 2 flux fields
+processCcd.calibrate INFO: Copying flags from icSourceCat to sourceCat for 169 sources
+processCcd.calibrate.astromRefObjLoader INFO: Loading reference objects using center (214.667254, +52.550251) and radius 0.15121197214064358 deg
+processCcd.calibrate.astromRefObjLoader INFO: Loaded 109 reference objects
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 109 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2370 unusable sources, leaving 142 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 42 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 109 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2370 unusable sources, leaving 142 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 35 sources
+processCcd.calibrate.astrometry.matcher INFO: filterStars purged 0 reference stars, leaving 109 stars
+processCcd.calibrate.astrometry.matcher INFO: Purged 2370 unusable sources, leaving 142 usable sources
+processCcd.calibrate.astrometry.matcher INFO: Matched 37 sources
+processCcd.calibrate.astrometry INFO: Matched and fit WCS in 3 iterations; found 37 matches with scatter = 0.032 +- 0.014 arcsec
+processCcd.calibrate.photoCal.match.sourceSelection INFO: Selected 2213/2512 sources
+processCcd.calibrate.photoCal.match.referenceSelection INFO: Selected 161/161 references
+processCcd.calibrate.photoCal.match INFO: Matched 64 from 2213/2512 input and 161/161 reference sources
+processCcd.calibrate.photoCal.reserve INFO: Reserved 0/64 sources
+processCcd.calibrate.photoCal INFO: Applying color terms for filterName='r', config.photoCatName=e2v because config.applyColorTerms is True
+processCcd.calibrate.photoCal INFO: Magnitude zero point: 32.071316 +/- 0.000404 from 48 stars
+processCcd.calibrate INFO: Photometric zero-point: 32.071316
