@@ -60,8 +60,10 @@ setup validation_data_cfht -t 16.0
 mkdir data
 echo lsst.obs.cfht.MegacamMapper > data/_mapper
 ingestImages.py data ${VALIDATION_DATA_CFHT_DIR}/raw/*.fz   --mode copy
+# Link in the reference catalogs
+ln -s ${VALIDATION_DATA_CFHT_DIR}/ref_cats data/ref_cats
 
-export ASTROMETRY_NET_DATA_DIR=${VALIDATION_DATA_CFHT_DIR}/astrometry_net_data
+export OMP_NUM_THREADS=1  # Suppress OMP parallelism.  We parallelize by CCD.
 processCcd.py data \
      --output data \
      @${VALIDATION_DATA_CFHT_DIR}/Cfht.list \
@@ -83,6 +85,8 @@ and the repo was made read-only to prevent accidental writes to this repo.
 ```
 chmod -R ugo-w data
 ```
+
+ 2. The reference catalogs get linked in to the new repo.  We want those to persist across different repos, but the current default expectation is that they will be linked to from with 'ref_cats' directory within the repository.
 
 Files
 -----
