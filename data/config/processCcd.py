@@ -157,9 +157,6 @@ config.isr.crosstalk.crosstalkMaskPlane='CROSSTALK'
 # Apply the brighter fatter correction
 config.isr.doBrighterFatter=False
 
-# Kernel file used for the brighter fatter correction
-config.isr.brighterFatterKernelFile=''
-
 # Maximum number of iterations for the brighter fatter correction
 config.isr.brighterFatterMaxIter=10
 
