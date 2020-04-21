@@ -20,23 +20,10 @@ Credit to Dominique Boutigny for selecting and providing these data from the pub
 Example usage
 -------------
 
-```
-setup validation_data_cfht
-
-NEW_OUTPUT_REPO=CFHT_data
-
-export ASTROMETRY_NET_DATA_DIR=${VALIDATION_DATA_CFHT_DIR}/astrometry_net_data
-
-processCcd.py ${VALIDATION_DATA_CFHT_DIR}/data \
-    --output ${NEW_OUTPUT_REPO} \
-    @${VALIDATION_DATA_CFHT_DIR}/Cfht.list \
-    -j 4
-```
+See `examples/runCfhtTest.sh` from the `validate_drp` package for information about how to process the raw data contained in this repository.
 
 Notes:
- * There will be a `${NEW_OUTPUT_REPO}/_parent` link back to the input repository `${VALIDATION_DATA_CFHT_DIR}/data`.
  * The list of images (`dataIds`) to process is in `@${VALIDATION_DATA_CFHT_DIR}/Cfht.list`
- * `-j 4` specifies using 4 cores.  You may wish to change to an appropriate number on your system, but the intent is that `-j 4` should be a reasonable default in 2016.
 
 Analyzing the repository
 ------------------------
@@ -50,43 +37,25 @@ validateDrp.py CFHT_data
 
 Recreating the repository
 -------------------------
-This repository was created using `examples/runCfhtTest.sh` from the `validate_drp` package.
-
-To fully recreate this Butler `repo` from the `raw` data, set the `mapper` and add the `ingesetImages.py` step:
-
-```
-setup validation_data_cfht -t 16.0
-
-mkdir data
-echo lsst.obs.cfht.MegacamMapper > data/_mapper
-ingestImages.py data ${VALIDATION_DATA_CFHT_DIR}/raw/*.fz   --mode copy
-# Link in the reference catalogs
-ln -s ${VALIDATION_DATA_CFHT_DIR}/ref_cats data/ref_cats
-
-export OMP_NUM_THREADS=1  # Suppress OMP parallelism.  We parallelize by CCD.
-processCcd.py data \
-     --output data \
-     @${VALIDATION_DATA_CFHT_DIR}/Cfht.list \
-     -j 4 \
-   >& processCcd.log
-```
+This repository was created using `examples/runCfhtTest.sh -C` from the `validate_drp` package.
+See that file for how to process the raw data contained in this repository.
 
 Notes
- 1. We use `--copy` to create a full copy of the raw images in the repo.
 
-The packages and versions used were recorded into `eups_setup_used.txt`:
+ 1. We use `-C` to create a full copy of the raw images in the repo.
+ 2. The packages and versions used were recorded into `eups_setup_used.txt`:
 
-```
-eups list --setup | awk '{printf "%-30s %s\n", $1, $2}' > eups_setup_used.txt
-```
+    ```
+    eups list --setup | awk '{printf "%-30s %s\n", $1, $2}' > eups_setup_used.txt
+    ```
 
-and the repo was made read-only to prevent accidental writes to this repo.
+    and the repo was made read-only to prevent accidental writes to this repo.
+    
+    ```
+    chmod -R ugo-w data
+    ```
 
-```
-chmod -R ugo-w data
-```
-
- 2. The reference catalogs get linked in to the new repo.  We want those to persist across different repos, but the current default expectation is that they will be linked to from with 'ref_cats' directory within the repository.
+ 3. The reference catalogs get linked in to the new repo by `runCfhtTest.sh`, but it is an absolute link. We replace with a relative link that by running: `rm data/input/ref_cats && ln -s ../../ref_cats/ data/input/`.
 
 Files
 -----
