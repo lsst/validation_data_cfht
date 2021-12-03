@@ -1,0 +1,30 @@
+description: The DRP pipeline specialized for this CFHT data from the Terapix/Elixir pipeline.
+instrument: lsst.obs.cfht.MegaPrime
+imports:
+  - $PIPE_TASKS_DIR/pipelines/DRP.yaml
+tasks:
+  isr:
+    class:
+      lsst.ip.isr.IsrTask
+    config:
+      # Mask saturated pixels (post-Elixir data doesn't include the masks).
+      saturation: 60000
+      # Do not have defect files for CFHT.
+      doDefect: False
+      # Override obs_cfht/config/isr.py: we need this output for characterizeImage.
+      doWrite: True
+  skyCorr:
+    class: lsst.pipe.drivers.skyCorrection.SkyCorrectionTask
+subsets:
+  singleFrame:
+    subset:
+      - isr
+      - characterizeImage
+      - calibrate
+      - writeSourceTable
+      - transformSourceTable
+      - consolidateSourceTable
+      - consolidateVisitSummary
+    description: >
+      Set of tasks for complete single frame processing. Analogous to
+      SingleFrameDriver.
